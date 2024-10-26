@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>公司网站</title>
+  <link rel="stylesheet" type="text/css" href="basestyle.css" />
+</head>
+<body>
+
+<div class="header">
+  <h1>卓远电子</h1>
+</div>
+
+<div class="top-navbar">
+  <div class="menu-toggle" onclick="toggleSidebar()">≡</div>
+</div>
+
+<div class="pseudo-element" onmouseover="showSidebar()" onmouseout="hideSidebar()"></div>
+
+<div class="sidebar">
+  <h3>菜单</h3>
+  <a href="#">链接 1</a>
+  <a href="#">链接 2</a>
+  <a href="#">链接 3</a>
+</div>
+
+<div class="main-content">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="搜索产品...">
+  </div>
+  <div id="searchResult"></div>
+</div>
+
+  
+<script src="basescript.js"></script>
+</body>
+</html>
